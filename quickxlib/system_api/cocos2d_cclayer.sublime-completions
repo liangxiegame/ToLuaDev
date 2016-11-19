@@ -1,0 +1,12 @@
+{
+	"scope": "source.lua",
+	"completions":
+	[
+		"local CCLayer = Cocos2d.CCLayer",
+		"CCLayer = Cocos2d.CCLayer",
+		"Cocos2d.CCLayer.__tostring()",
+		{ "trigger": "Cocos2d.CCLayer.New()","contents": "Cocos2d.CCLayer.New()"},
+		{ "trigger": "CCLayer.New()","contents": "CCLayer.New()"},
+	]
+}
+

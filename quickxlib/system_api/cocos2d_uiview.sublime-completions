@@ -1,0 +1,30 @@
+{
+	"scope": "source.lua",
+	"completions":
+	[
+		"local UIView = Cocos2d.UIView",
+		"UIView = Cocos2d.UIView",
+		"Cocos2d.UIView.__eq()",
+		"Cocos2d.UIView.__tostring()",
+		"Cocos2d.UIView.touchesBegan",
+		{ "trigger": "Cocos2d.UIView.touchesBegan(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "Cocos2d.UIView.touchesBegan(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		{ "trigger": ":touchesBegan(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "touchesBegan(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		{ "trigger": "uIView:touchesBegan(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "uIView:touchesBegan(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		"Cocos2d.UIView.touchesMoved",
+		{ "trigger": "Cocos2d.UIView.touchesMoved(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "Cocos2d.UIView.touchesMoved(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		{ "trigger": ":touchesMoved(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "touchesMoved(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		{ "trigger": "uIView:touchesMoved(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "uIView:touchesMoved(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		"Cocos2d.UIView.touchesEnded",
+		{ "trigger": "Cocos2d.UIView.touchesEnded(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "Cocos2d.UIView.touchesEnded(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		{ "trigger": ":touchesEnded(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "touchesEnded(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		{ "trigger": "uIView:touchesEnded(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "uIView:touchesEnded(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		"Cocos2d.UIView.touchesCancelled",
+		{ "trigger": "Cocos2d.UIView.touchesCancelled(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "Cocos2d.UIView.touchesCancelled(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		{ "trigger": ":touchesCancelled(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "touchesCancelled(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		{ "trigger": "uIView:touchesCancelled(System.Collections.Generic.HashSet`1[UITouch]:touches)","contents": "uIView:touchesCancelled(${1:System.Collections.Generic.HashSet`1[UITouch]:touches})"},
+		"Cocos2d.UIView.op_Equality",
+		{ "trigger": "Cocos2d.UIView.op_Equality(UnityEngine.Object:x,UnityEngine.Object:y)","contents": "Cocos2d.UIView.op_Equality(${1:UnityEngine.Object:x},${2:UnityEngine.Object:y})"},
+		{ "trigger": "UIView.op_Equality(UnityEngine.Object:x,UnityEngine.Object:y)","contents": "UIView.op_Equality(${1:UnityEngine.Object:x},${2:UnityEngine.Object:y})"},
+	]
+}
+
